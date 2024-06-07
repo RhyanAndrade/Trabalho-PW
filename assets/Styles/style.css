@@ -250,7 +250,6 @@ span,
 }
 
 .cards2 {
-    max-width: 900px;
     margin: 0 auto;
     height: 100px;
     color: black !important;
@@ -381,13 +380,14 @@ span,
     .nav-menu{
         position: fixed;
         left: -100%;
-        top: 10px;
+        top: 14px;
         gap: 0;
         background-color: #a238ff;
         text-align: center;
         flex-direction: column;
         width: 100%;
-        transition: .3s;
+        transition: .5s;
+        border-radius: 20px;
     }
 
     .nav-item{
@@ -396,6 +396,14 @@ span,
 
     .nav-menu.active{
         left: 0;
+    }
+
+    .grid-container {
+        margin: 1rem;
+    }
+
+    .swiper-slide{
+        top: 0;
     }
 }
 
@@ -428,6 +436,7 @@ span,
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        margin-bottom: 1rem;
     }
 
     .unlogged-card-title {

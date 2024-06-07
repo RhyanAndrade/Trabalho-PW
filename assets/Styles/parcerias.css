@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    flex-wrap: wrap;
 }
 
 .grid-content:hover{
@@ -25,4 +26,11 @@
 
 .grid-container .grid-content:hover{
     background-color: antiquewhite;
+}
+
+.grid-content:hover{
+    transform: scale(1.06);
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px 10px #e4c4ff;
+    transition: .5s;
 }
